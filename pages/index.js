@@ -10,8 +10,6 @@ import Title from '../components/title'
 import CoinList from '../components/coinList'
 import CoinGraph from '../components/coinGraph'
 
-// import styles from '../styles/Home.module.css'
-
 export default function Home() {
   return (
     <Layout>
