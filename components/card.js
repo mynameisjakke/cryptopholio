@@ -1,7 +1,7 @@
 export default function Card(params) {
   return (
-   <div className="card">
-     <div className="cart-title">
+   <div className="card card-sm">
+     <div className="cart-title card-title-center">
        <h5>Portföljvärde</h5>
      </div>
      <div className="card-data">
