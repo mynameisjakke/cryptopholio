@@ -1,12 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+
+import Layout from '../components/layout'
+import Navbar from '../components/navbar'
+
+// import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      <h1>Cryptopholio</h1>
-    </div>
+    <Layout>
+      <Head>
+        <title>Cryptopholio</title>
+      </Head>
+      <Navbar />
+    </Layout>
   )
 }
